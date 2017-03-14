@@ -167,7 +167,7 @@ public class SESRequestHandler implements RequestHandler {
 	public void afterResponse(Request<?> request, Object obj, TimingInfo timinginfo) {
 		if(_delegate != null) {
 			_delegate.afterResponse(request, obj, timinginfo);
-		} else {
+		} else if(obj instanceof SendRawEmailResult) {
 			SendRawEmailResult result = (SendRawEmailResult) obj;
 			String messageID = result.getMessageId();
 			ERCMailer.INSTANCE.setMessageID(messageID);
