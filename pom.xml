@@ -9,7 +9,6 @@
 	<url>https://github.com/nullterminated/ponder</url>
 	<modules>
 		<module>AWSPlugin</module>
-		<module>ERAddressBookExample</module>
 		<module>ERAuth</module>
 		<module>ERCoreBL</module>
 		<module>ERDatum</module>
