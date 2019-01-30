@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>ponder</groupId>
 		<artifactId>ponder</artifactId>
-		<version>1.3</version>
+		<version>1.4-SNAPSHOT</version>
 	</parent>
 	<artifactId>ERR2dw</artifactId>
 	<packaging>woframework</packaging>
