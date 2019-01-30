@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ponder</groupId>
 	<artifactId>ponder</artifactId>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.5</version>
 	<packaging>pom</packaging>
 	<name>Ponder</name>
 	<url>https://github.com/nullterminated/ponder</url>
@@ -132,7 +132,7 @@
 		<connection>scm:git:git@github.com:practicemojo/ponder.git</connection>
 		<url>scm:git:git@github.com:practicemojo/ponder.git</url>
 		<developerConnection>scm:git:git@github.com:practicemojo/ponder.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>ponder-1.5</tag>
   </scm>
 	<dependencyManagement>
 		<dependencies>
