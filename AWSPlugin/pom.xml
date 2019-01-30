@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>ponder</groupId>
 		<artifactId>ponder</artifactId>
-		<version>1.7-SNAPSHOT</version>
+		<version>1.7</version>
 	</parent>
 	<artifactId>AWSPlugin</artifactId>
 	<packaging>woframework</packaging>
