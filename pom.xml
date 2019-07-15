@@ -128,9 +128,9 @@
 		</snapshotRepository>
 	</distributionManagement>
 	<scm>
-		<connection>scm:git:git@github.com:practicemojo/ponder.git</connection>
-		<url>scm:git:git@github.com:practicemojo/ponder.git</url>
-		<developerConnection>scm:git:git@github.com:practicemojo/ponder.git</developerConnection>
+		<connection>scm:git:https://github.com/practicemojo/ponder.git</connection>
+		<url>https://github.com/practicemojo/ponder</url>
+		<developerConnection>scm:git:https://github.com/practicemojo/ponder.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm>
 	<dependencyManagement>
