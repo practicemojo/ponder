@@ -118,13 +118,13 @@
 		<repository>
 			<id>practicemojo.deployment</id>
 			<name>PracticeMojo Releases Repository</name>
-			<url>http://nexus.ci.practicemojo.com/repository/maven-releases/</url>
+			<url>http://nexus:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>practicemojo.deployment</id>
 			<uniqueVersion>false</uniqueVersion>
 			<name>PracticeMojo Snapshots Repository</name>
-			<url>http://nexus.ci.practicemojo.com/repository/maven-snapshots/</url>
+			<url>http://nexus:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<scm>
